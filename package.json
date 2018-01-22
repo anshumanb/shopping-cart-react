@@ -4,6 +4,8 @@
   "description": "A simple shopping cart in React",
   "main": "index.js",
   "scripts": {
+    "prestart": "npm install && npm run build",
+    "build": "webpack",
     "start": "webpack-dev-server",
     "develop": "webpack -d -w",
     "lint": "eslint src/index.jsx",
